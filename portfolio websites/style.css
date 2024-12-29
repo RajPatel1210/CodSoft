@@ -1,0 +1,508 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color:rgb(0, 0, 33);
+    /* background-color:#2A1A45; */
+    color:white;
+    font-family: "Poppins", sans-serif;
+    /* font-family:cursive; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    /* background-color: #03fcf0; */
+    background-color: rgb(18,18,62);
+}
+
+.right ul li a{
+    font-family: cursive;
+    font-size:18px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover{
+    color:rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+main hr{
+    border:0;
+    background :#9c97f1;
+    height:1.2px;
+    margin:180px 84px 40px 84px;
+}
+
+
+
+.left{
+    font-size:1.5rem;
+}
+
+.firstsection{
+    display:flex;
+    justify-content: space-around;
+    margin:130px 0;
+    align-items: center;
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size:2.2rem;
+    /* margin:70px 0; */
+    /* background-color: red; */
+}
+
+.rightsection{
+    width: 80%;
+}
+
+.purple{
+    color:rgb(170, 107, 228);
+}
+
+#element{
+   color:rgb(170,107,228);
+}
+
+.leftsection .buttons{
+    padding:50px 0;
+}
+
+
+.leftsection .btn{
+    padding:12px;
+    background: #1e2167;
+    color:white;
+    border:2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+section{
+    padding:3rem 0;
+}
+
+section .project{
+    height: 600px;
+    background-color: white;
+}
+
+.heading{
+    text-align: center;
+    font-size:50px;
+    animation-name: heading-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heading-animation{
+    25%{}
+    50%{color:yellow}
+    75%{color:aqua}
+}
+
+.project-image{
+    margin:20px 0;
+}
+
+.projects img{
+     width:29%;
+     height: 250px;
+     margin-top:3%;
+     /* box-shadow: 10px 2px 2px 10px #1e2167; */
+     margin-left: 44px;
+     border:5px solid blue;
+     border-radius: 5px;
+}
+
+.project img:hover{
+    transform: scale(1.09);
+    
+}
+
+.project-title h2{
+     float:left;
+     margin-top:25px;
+}
+
+.project-title .t1{
+    margin-left:12%;
+}
+
+.project-title .t2{
+    margin-left:22%;
+}
+
+.project-title .t3{
+    margin-left:19%;
+}
+
+section .about-me{
+    height: 600px;
+}
+
+.left-image{
+    height:0;
+}
+
+.left-image img{
+    width:29%;
+    height: 450px;
+    margin-top:4%;
+    margin-left:130px;
+    border:1px solid red;
+    border-radius: 50%;
+}
+
+
+.icons img{
+    width:8%;
+}
+
+.right-text{
+    margin-left:55%;
+    text-align:center;
+    margin-top:10%;
+    line-height:49px;
+    font-size:20px;
+    margin-right:120px;
+    /* display:inline; */
+    font-family: 'Times New Roman', Times, serif    ;
+}
+
+.myname{
+    font-size:65px;
+    color:chartreuse;
+    animation-name: name-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+.icons img{
+    left:0;
+    float:right;
+    width:50px;
+    margin-top:5%;
+    margin-right:50px;
+    z-index:1;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+/* .right-text p{
+    display: inline;
+} */
+
+/* .right-text h2{
+    display:inline;
+} */
+
+.icons{
+    margin-right:180px;
+    margin-top:20px;
+}
+
+@keyframes name-animation{
+    25%{}
+    50%{color:#004e64}
+    75%{color:#00a5cf}
+    75%{color:#9fffcb}
+    75%{color:#25a18e}
+    75%{color:#7ae582}
+    
+}
+
+.heading-line{
+    margin-top:200px;
+}
+
+section.contact-me{
+     height:auto;
+     margin-top: 5%;
+     padding:3rem 0;
+     background-color: rgb(18,18,62);    
+     /* border-bottom:5px solid red; */
+     /* margin-top:10%; */
+
+}
+
+.contact-div .heading{
+    color: white;
+    font-size:3rem;
+    margin-bottom:1.5rem;
+}
+
+.form-contact {
+    width: 60%; /* Make it more centered */
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px dotted aqua;
+    border-radius: 12px; /* Smooth the border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency for effect */
+}
+
+.right-img{
+    float:none;
+    text-align: center;
+    /* margin-right: 80px; */
+    margin:0 auto 30px auto;
+    width: 300px;
+    height: auto;
+}
+
+::placeholder{
+    font-size:20px;
+}
+
+/* .form-contact{
+     margin-left:155px;
+     margin-left:110px; 
+     margin-top:100px;
+     border:2px dotted aqua;
+} */
+
+.input-box,message{
+    width: 100%;
+    border:2px solid aqua;
+    margin:12px 0;
+    color:red;
+    height: 45px;
+    border-radius: 20px;
+    background:transparent;
+    outline:none;
+    padding:0 20px;
+    text-align: center;
+    font-size:18px;
+    font-weight:300;
+}
+
+.message{
+  height: 150px;
+  resize: none;
+  padding-top:10px;
+
+}
+
+.send{
+    color:white;
+    background-color:rgb(2,137,255);
+    border-radius:20px;
+    height:40px;
+    width:50%;
+    /* font-weight: bold; */
+    font-size: 19px;
+    /* margin-left:15px; */
+    padding:0 10px;
+    /* background: transparent; */
+    border:none;
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+    margin-top:20px;
+
+}
+
+.send:hover {
+    background-color: rgba(2, 137, 255, 0.8); /* Lighten the button on hover */
+    box-shadow: 0px 5px 15px rgba(2, 137, 255, 0.4);
+}
+
+/* Placeholder Styling */
+::placeholder {
+    font-size: 18px;
+    color: #bfbfbf; /* Lighter color for placeholders */
+}
+
+/* Responsive Design for Contact Form */
+@media (max-width: 768px) {
+    .form-contact {
+        width: 90%;
+    }
+
+    .input-box, .message, .send {
+        width: 100%; /* Make the form fields take full width on mobile */
+    }
+
+    .right-img {
+        width: 100%; /* Scale down the image on smaller screens */
+    }
+}
+
+footer {
+    background-color: rgb(18, 18, 62); /* Consistent with website theme */
+    color: white;
+    padding: 40px 0;
+    border-top: 2px solid #9c97f1;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex-basis: 30%;
+    padding: 20px;
+}
+
+.footer-left h2 {
+    font-size: 1.8rem;
+    color: #9c97f1;
+}
+
+.footer-left p {
+    font-size: 1rem;
+    color: #bfbfbf;
+    line-height: 1.6;
+}
+
+.footer-center h3, .footer-right h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #9c97f1;
+}
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-center ul li {
+    margin-bottom: 10px;
+}
+
+.footer-center ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-center ul li a:hover {
+    color: #9c97f1;
+}
+
+.footer-right p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #bfbfbf;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #9c97f1;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #6f67e6;
+}
+
+.footer-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-icons img {
+    width: 35px;
+}
+
+.footer-icons a:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #12123e;
+    border-top: 1px solid #9c97f1;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #bfbfbf;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        flex-basis: 100%;
+        padding: 10px 0;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input, .newsletter-form button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .footer-right .footer-icons img {
+        width: 30px;
+    }
+}
+
